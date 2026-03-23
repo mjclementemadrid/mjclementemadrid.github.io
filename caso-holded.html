@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ecosistema web — Holded · MJclemente</title>
+  <meta name="description" content="Caso de estudio: arquitectura y UX Writing del ecosistema web de Holded. Content Style Guide, páginas de audiencia y 9,6% de conversión." />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ecosistema web Holded — Caso de estudio | MJ Clemente Portfolio" />
+  <meta property="og:description" content="Cómo construí el ecosistema web de Holded: Content Style Guide, páginas de audiencia y funcionalidad. De la arquitectura al microtexto." />
+  <meta property="og:type" content="article" />
+  <meta property="og:image" content="imagescasoholded/1portadacasoholded.png" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Ecosistema web Holded — Caso de estudio | MJ Clemente Portfolio" />
+  <meta name="twitter:description" content="Cómo construí el ecosistema web de Holded: Content Style Guide, páginas de audiencia y funcionalidad. De la arquitectura al microtexto." />
+  <meta name="twitter:image" content="imagescasoholded/1portadacasoholded.png" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🫰</text></svg>">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ──────────────────────────────────────────── -->
+  <nav class="navbar" role="navigation" aria-label="Navegación principal">
+    <div class="container">
+      <div class="navbar__inner">
+        <a href="index.html" class="navbar__logo">Hola, soy MJ 🫰</a>
+
+        <div class="navbar__links">
+          <a href="trabajo.html" class="navbar__link">Trabajo</a>
+          <a href="sobre-mi.html" class="navbar__link">Sobre mí</a>
+          <a href="contacto.html" class="navbar__cta">¿Hablamos?</a>
+        </div>
+
+        <button class="navbar__hamburger" aria-label="Abrir menú" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile menu -->
+  <div class="navbar__mobile" aria-label="Menú móvil" aria-live="polite">
+    <a href="trabajo.html" class="navbar__link">Trabajo</a>
+    <a href="sobre-mi.html" class="navbar__link">Sobre mí</a>
+    <a href="contacto.html" class="navbar__cta">¿Hablamos?</a>
+  </div>
+
+  <main>
+
+    <!-- ── CASE HEADER ───────────────────────────────────── -->
+    <section class="case-header">
+      <div class="container">
+        <h1 class="case-header__title">
+          Ecosistema web
+        </h1>
+
+        <div class="case-meta">
+          <div class="case-meta__item">
+            <span class="case-meta__label">Rol</span>
+            <span class="case-meta__value">Arquitectura + UX Writing + Webflow</span>
+          </div>
+          <div class="case-meta__item">
+            <span class="case-meta__label">Empresa</span>
+            <span class="case-meta__value">Holded</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── CASE BODY ─────────────────────────────────────── -->
+    <div class="case-body">
+      <div class="container">
+
+        <!-- Reto -->
+        <div class="case-section">
+          <span class="case-section__label">Reto</span>
+          <div class="case-section__content">
+            <h2>Una web cohesionada</h2>
+            <p>
+              Holded tenía una web con copys genéricos, páginas inconsistentes entre sí, poco discurso coherente y poca velocidad de construcción. Cada página había sido escrita y creada en momentos diferentes, con criterios diferentes.
+            </p>
+            <p>
+              El resultado era una experiencia fragmentada. Páginas sueltas, no parte de un mismo conjunto, que no hacían justicia a la unidad del producto. Holded promete una sola herramienta para gestionar todo tu negocio, su web no podía ser una serie de páginas sin coherencia de voz, tono y marca entre sí.
+            </p>
+            <p>
+              El reto era construir un ecosistema coherente, desde el tono de voz hasta la arquitectura de las páginas, pasando por la velocidad de producción.
+            </p>
+            <div style="margin-top: var(--spacing-lg);">
+              <img src="imagescasoholded/1portadacasoholded.png" alt="Portada caso Holded" style="width: 100%; height: auto; display: block;" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Lo que incluye -->
+        <div class="case-section">
+          <span class="case-section__label">Áreas de trabajo</span>
+          <div class="case-section__content">
+            <h2>De la estrategia al píxel</h2>
+            <p>El proyecto abarcó cuatro grandes pilares:</p>
+
+            <div class="decisions-list">
+              <div class="decision-item">
+                <p class="decision-item__title">Content Style Guide</p>
+                <p class="decision-item__text">
+                  Documento de referencia para todo el equipo: voz, tono, terminología oficial, reglas tipográficas y ejemplos de uso. Pasamos a un estándar compartido que escala con las necesidades del proyecto.
+                </p>
+              </div>
+              <div class="decision-item">
+                <p class="decision-item__title">Páginas de funcionalidad</p>
+                <p class="decision-item__text">
+                  Rediseño y reescritura de las páginas core de funcionalidades del producto (facturación, contabilidad, tesorería, inventario, proyectos, RRHH...). Cada página con una estructura clara: solución problema → ventaja diferencial → otras ventajas → CTA.
+                </p>
+              </div>
+              <div class="decision-item">
+                <p class="decision-item__title">Páginas de audiencia</p>
+                <p class="decision-item__text">
+                  Basadas en UX research con usuarios reales. En lugar de hablar de funcionalidades, hablamos de las necesidades que cada perfil de profesional necesita suplir.
+                </p>
+              </div>
+              <div class="decision-item">
+                <p class="decision-item__title">Páginas de recursos</p>
+                <p class="decision-item__text">
+                  Una serie de herramientas gratuitas para aprender a usar Holded, entretenerse, informarse sobre el mundo del emprendimiento y estar al día de las leyes.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pantallas -->
+        <div class="case-section">
+          <span class="case-section__label">Pantallas</span>
+          <div class="case-section__content" style="display: flex; flex-direction: column; gap: var(--spacing-md);">
+            <img src="imagescasoholded/2nominas.png" alt="Nóminas" style="width: 100%; height: auto; display: block;" />
+            <img src="imagescasoholded/3agencias.png" alt="Agencias" style="width: 100%; height: auto; display: block;" />
+            <img src="imagescasoholded/4precios.png" alt="Precios" style="width: 100%; height: auto; display: block;" />
+            <img src="imagescasoholded/5webinars.jpg" alt="Webinars" style="width: 100%; height: auto; display: block;" />
+          </div>
+        </div>
+
+        <!-- Decisiones clave -->
+        <div class="case-section">
+          <span class="case-section__label">Decisiones clave</span>
+          <div class="case-section__content">
+            <h2>Elementos que marcaron diferencias</h2>
+            <div class="decisions-list">
+              <div class="decision-item">
+                <p class="decision-item__title">Research antes de escribir una sola palabra</p>
+                <p class="decision-item__text">
+                  Las páginas de audiencia nacieron de entrevistas y análisis de comportamiento. Entender qué palabras usaban los usuarios (no las que usaba el equipo de producto) cambió radicalmente el ángulo de los titulares.
+                </p>
+              </div>
+              <div class="decision-item">
+                <p class="decision-item__title">De Strapi a Webflow</p>
+                <p class="decision-item__text">
+                  Se migró de plataforma y construimos los templates en Webflow con componentes reutilizables. Esto redujo el tiempo de publicación de nuevas páginas de días a horas, y eliminó la dependencia de desarrollo para cambios.
+                </p>
+              </div>
+              <div class="decision-item">
+                <p class="decision-item__title">Jerarquía de mensajes</p>
+                <p class="decision-item__text">
+                  En cada página, primero definí la jerarquía de mensajes (qué necesita saber el usuario en cada momento del scroll) y luego escribí el copy.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Resultados -->
+        <div class="case-section">
+          <span class="case-section__label">Resultados</span>
+          <div class="case-section__content">
+            <h2>Un ecosistema que convierte</h2>
+            <p>En 2026, la web recibió más de 4 millones de visitas orgánicas frente a las 3,5 del año anterior, con una media de tasa de conversión del 7 %, con algunas páginas superando más del 9% de conversión.</p>
+
+            <div class="stats-grid">
+              <div class="stat-item">
+                <p class="stat-item__number">9,6%</p>
+                <p class="stat-item__label">Conversión en la página de programa de facturación</p>
+              </div>
+              <div class="stat-item">
+                <p class="stat-item__number">127</p>
+                <p class="stat-item__label">Nuevas páginas creadas</p>
+              </div>
+              <div class="stat-item">
+                <p class="stat-item__number">Top 3</p>
+                <p class="stat-item__label">Resultados de Google</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- ── CASE NAV ───────────────────────────────────────── -->
+    <div class="case-nav">
+      <div class="container">
+        <div class="case-nav__inner">
+          <a href="caso-facturas.html" class="case-nav__item">
+            <span class="case-nav__direction">←</span>
+            <span class="case-nav__title"><span class="case-nav__label">Previo:</span> Creador de facturas</span>
+          </a>
+          <span class="case-nav__separator">|</span>
+          <a href="caso-ebook.html" class="case-nav__item case-nav__item--next">
+            <span class="case-nav__title"><span class="case-nav__label">Siguiente:</span> A buenas horas</span>
+            <span class="case-nav__direction">→</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ── FOOTER ────────────────────────────────────────────── -->
+
+  <script src="main.js"></script>
+</body>
+</html>
